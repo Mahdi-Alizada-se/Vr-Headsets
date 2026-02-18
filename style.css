@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+.container {
+  width: 1440px;
+  max-width: 90%;
+
+  margin: 0 auto;
+}
+header {
+  height: 70px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+header section.logo {
+  font-size: 27px;
+}
+
+header section.logo span.blue-dot {
+  background-color: #33c6dd;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline-block;
+  margin-left: 26px;
+}
+
+header nav ul li a {
+  color: #3e3e3e;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+header .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section.hero {
+  position: relative;
+}
+
+section.hero img {
+  width: 100%;
+  height: auto;
+}
+
+section.hero .hero-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+section.hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+section.hero h1,
+section.hero p {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 20px;
+  max-width: 495px;
+}
+
+section.hero h1 {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 56px;
+}
+section.hero p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+}
+section.hero button {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #33c6dd;
+  border-radius: 25px;
+  background-color: #33c6dd;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+}
