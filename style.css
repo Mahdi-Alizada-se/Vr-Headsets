@@ -239,3 +239,41 @@ section.Newsletter button {
   border: none;
   text-transform: uppercase;
 }
+
+footer {
+  background-color: #5c5b5b;
+  color: white;
+  padding: 60px 0;
+}
+footer .container {
+  display: flex;
+  width: 950px;
+  max-width: 100%;
+  justify-content: space-between;
+}
+footer ul {
+  list-style-type: none;
+  width: 25%;
+}
+
+footer ul li.list-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+footer ul li:last-of-type {
+  margin-bottom: 0;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+section.copyright {
+  text-align: center;
+  padding: 18px 0;
+  color: rgb(196, 195, 195);
+  background-color: #292929;
+}
